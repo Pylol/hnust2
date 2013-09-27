@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'id', 1 => 'speaker', 2 => 'time', 3 => 'content', '_autoinc' => true, '_pk' => 'id', '_type' => array ( 'id' => 'int(11)', 'speaker' => 'varchar(20)', 'time' => 'datetime', 'content' => 'text', ), );?>

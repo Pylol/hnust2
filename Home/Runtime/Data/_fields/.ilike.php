@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'userNumber', 1 => 'collection', '_autoinc' => false, '_type' => array ( 'userNumber' => 'int(11)', 'collection' => 'varchar(500)', ), );?>

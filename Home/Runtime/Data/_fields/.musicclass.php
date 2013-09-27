@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'classID', 1 => 'className', '_autoinc' => true, '_pk' => 'classID', '_type' => array ( 'classID' => 'int(11)', 'className' => 'varchar(10)', ), );?>

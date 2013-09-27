@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><html><head><title><?php echo ($musicName); ?></title><head><body><audio id="music" controls="controls" autoplay preload><!-- <source src="__PUBLIC__/Songs/27.ogg" /> --><source src="__PUBLIC__/Songs/<?php echo ($musicID); ?>.mp3" /></audio></body></html>

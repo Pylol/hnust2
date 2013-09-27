@@ -1,0 +1,55 @@
+﻿<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html charset=utf-8" />
+	<title>项目文件结构说明</title>
+</head>
+<body>
+<pre>
+<h2>项目文件结构</h2>
+hnust2
+|
+|--ThinkPHP //框架系统文件(不动)
+|
+|--Admin   //后台应用(结构同Home)
+|
+|--Public  //公共文件，放置Css、Js、Image等文件
+|	|
+|	|--Css //css样式表
+|	|--Js  //js文件
+|	|--Images //素材图片
+|	|--font、font-awesome、less、scss   //字体相关文件
+|	|--Songs   //歌曲文件
+|	|--Photos  //用户头像文件
+|	|--Covers  //歌曲封面文件
+|
+|--Home    //前台应用
+	|
+	|--Common	
+	|--Conf
+	|	|
+	|	|--config.php //应用配置文件
+	|	
+	|--Lang
+	|--Lib	//类库
+	|	|
+	|	|--Action 	//模块后端控制操作
+	|	|	|
+	|	|	|--IndexAction.class.php  //后端控制文件[***(模块名)Action.class.php]
+	|	|	|-- ...
+	|	|		
+	|	|--Behavior
+	|	|--Model
+	|	|--Widget
+	|
+	|--Runtime  //编译缓存文件
+	|--Tpl	//模板
+		|
+		|--Index  //模块名
+		|	|-- index.html //视图文件
+		|	|-- ...
+		|
+		|-- ...
+
+</pre>
+</body>
+</html>

@@ -1,0 +1,1 @@
+<?php	return array ( 0 => 'adminName', 1 => 'name', 2 => 'nikeName', 3 => 'password', 4 => 'email', 5 => 'privilege', '_autoinc' => false, '_pk' => 'adminName', '_type' => array ( 'adminName' => 'varchar(20)', 'name' => 'varchar(10)', 'nikeName' => 'varchar(20)', 'password' => 'varchar(32)', 'email' => 'varchar(50)', 'privilege' => 'tinyint(4)', ), );?>
