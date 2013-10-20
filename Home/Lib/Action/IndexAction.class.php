@@ -4,7 +4,7 @@ class IndexAction extends Action {
 	public function _initialize(){
         session_start();
         if(!isset($_SESSION['user']) || empty($_SESSION['user'])){
-            $this->redirect("__APP__/Manage/index");
+            $this->redirect("Manage/index");
         }
     }
     public function index(){
